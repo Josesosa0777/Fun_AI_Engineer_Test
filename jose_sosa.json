@@ -1,0 +1,23 @@
+{
+  "player": {
+    "fullName": "Jose de la luz Sosa Lopez",
+    "email": "josephsosa0777@gmail.com",
+    "linkedinOrSite": "https://www.linkedin.com/in/jose-sosa-741079a4/",
+    "portfolio": [
+      "https://github.com/Josesosa0777/Fun_AI_Engineer_Test",
+      "https://github.com/Josesosa0777/FastAPI",
+      "https://github.com/Josesosa0777/MealsToGo"
+    ]
+  },
+  "technical": {
+    "kpiSnippet": "import json\n\nkpis = [\n    {\"label\": \"CPU Usage\", \"lift\": 12.5},\n    {\"label\": \"Memory Usage\", \"lift\": 8.3},\n    {\"label\": \"Network Latency\", \"lift\": 15.2},\n    {\"label\": \"Disk I/O\", \"lift\": 5.7}\n]\n\n# Sort KPIs by lift descending\ntop_kpis = sorted(kpis, key=lambda x: x['lift'], reverse=True)[:2]\n\nfor kpi in top_kpis:\n    print(f\"{kpi['label']}: {kpi['lift']}% lift\")",
+    "repo": "https://github.com/Josesosa0777/Fun_AI_Engineer_Test"
+  },
+  "creative": {
+    "prompt": "A cinematic digital illustration of a celebration in a Mexican town square at sunset, with papel picado overhead, mariachis playing, and vibrant colors reflecting traditional culture. Use a DSLR perspective, soft golden-hour lighting, medium-wide angle, high contrast. Negative prompt: avoid modern urban elements, low-res details, and futuristic artifacts. Model: Midjourney v6",
+    "rationale": "This prompt combines cultural storytelling with artistic precision. The use of lighting and camera terms ensures visual clarity and mood, while stylistic constraints (like avoiding futuristic elements) reinforce a grounded, authentic Mexican identity. It maintains brand coherence through vivid, positive imagery, appealing to emotion and tradition."
+  },
+  "bonus": {
+    "favoriteCharacter": "Gordon Freeman"
+  }
+}
